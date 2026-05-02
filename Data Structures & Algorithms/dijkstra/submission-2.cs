@@ -32,7 +32,7 @@ public class Solution
             int node = atual.node;
             int distAtual = atual.dist;
 
-            // 🔥 ESSENCIAL: evita processamento inútil
+            // evita processamento inútil
             if (distAtual > dist[node])
                 continue;
 
